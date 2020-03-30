@@ -8,7 +8,12 @@ serverSocket.bind(('', serverPort))
 print('Service started at localhost:', serverPort)
 
 def findCaps(message):
-    return message.upper()
+    vocali = ['a', 'e', 'i', 'o', 'u']
+    varCount = len(message)
+
+    for voc in vocali:
+        varCount = varCount - message.count(voc)
+    return varCount
 
 while True:
     message, clientAddress = serverSocket.recvfrom(2048)
@@ -17,7 +22,7 @@ while True:
     print('\nConnection opened\nSocket: ', clientAddress[0], ':', clientAddress[1], '\nMessage: ', message)
     message = findCaps(message)
 
-    serverSocket.sendto(message.encode('utf-8'), clientAddress)
+    serverSocket.sendto(str(message).encode('utf-8'), clientAddress)
 
 
 
