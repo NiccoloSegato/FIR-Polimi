@@ -10,8 +10,8 @@ message = input('Inserisci una stringa: ')
 
 try:
     clientSocket.sendto(message.encode('utf-8'), (serverAddress, serverPort))
-    response = clientSocket.recvfrom(2048)
-    print('Server response: ', response)
+    response, remoteAddress = clientSocket.recvfrom(2048)
+    print('Server response: ', response.decode('utf-8'))
 except TimeoutError as e:
     print(e.value)
 finally:
