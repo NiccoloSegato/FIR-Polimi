@@ -1,7 +1,7 @@
 from socket import *
 
 serverName = 'localhost' # verrà tradotto dal sistema operatiivo in 172.0.0.1
-serverPort = 1200 # numero di porta del processo server, arbittrario ma maggiore di 1023
+serverPort = 12000 # numero di porta del processo server, arbittrario ma maggiore di 1023
 
 # Creazione del socket client
 clientSocket = socket(AF_INET, SOCK_DGRAM) # AF_INET specifica IPV4 (non 6) e SOCK_DIGRAM indica il collegamento UDP
@@ -19,7 +19,7 @@ modifiedMessage, serverAddress = clientSocket.recvfrom(2048) # 2048 = lunghezza 
 
 # mostro il messaggio ricevuto
 modifiedMessage =   modifiedMessage.decode('utf-8') # decodifichiamo la risposta
-print(modifiedMessage) # mostro la risposta
+print('Risposta dal server: ', modifiedMessage) # mostro la risposta
 
 # chiusura della connessione
 clientSocket.close()
