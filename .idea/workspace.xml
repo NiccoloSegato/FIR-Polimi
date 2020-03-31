@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8440aae5-813a-481e-a24b-a419f6e0a1b7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lab_FIR_2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab_FIR_2020.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_2/esercizio2_4_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_2/esercizio2_4_server.py" afterDir="false" />
-    </list>
+    <list default="true" id="8440aae5-813a-481e-a24b-a419f6e0a1b7" name="Default" comment="Updated files esercizio2_4_[].py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +18,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zt2fbilGV5ZRWQMBHfKjhkDN8p" />
@@ -131,13 +131,29 @@
       <option name="presentableId" value="Default" />
       <updated>1585644173430</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated files esercizio2_4_[].py">
+      <created>1585645173348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585645173349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated files esercizio2_4_[].py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated files esercizio2_4_[].py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="287" y="154" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585644583736">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="287" y="154" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.979@0.23.1680.979" timestamp="1585644583736" />
+    <state x="342" y="115" key="CommitChangelistDialog2" timestamp="1585645173148">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="342" y="115" key="CommitChangelistDialog2/0.23.1680.979@0.23.1680.979" timestamp="1585645173148" />
     <state width="1659" height="184" key="GridCell.Tab.0.bottom" timestamp="1585645113179">
       <screen x="0" y="23" width="1680" height="979" />
     </state>
@@ -158,5 +174,9 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="324" y="131" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1585644250041" />
+    <state x="440" y="252" key="Vcs.Push.Dialog.v2" timestamp="1585645177502">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="440" y="252" key="Vcs.Push.Dialog.v2/0.23.1680.979@0.23.1680.979" timestamp="1585645177502" />
   </component>
 </project>

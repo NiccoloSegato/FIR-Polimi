@@ -21,3 +21,15 @@ Esercizi di laboratorio del corso di Fondamenti di Comunicazione e Internet del 
 * [udp_server.py](./Lab_2/udp_server.py)
     * Creazione di un server UDP con Python
     * 30 marzo 2020
+* [Esercizio 2.3 Client](./Lab_2/esercizio2_3_client.py)
+    * Creazione di un client UDP con Python per conteggio consonanti in una parola
+    * 30 marzo 2020
+* [Esercizio 2.3 Server](./Lab_2/esercizio2_3_server.py)
+    * Creazione di un server UDP con Python per conteggio consonanti in una parola
+    * 30 marzo 2020
+* [Esercizio 2.4 Client](./Lab_2/esercizio2_4_client.py)
+    * Creazione di un client UDP con Python per verifica numeri primi
+    * 31 marzo 2020
+* [Esercizio 2.4 Server](./Lab_2/esercizio2_4_server.py)
+    * Creazione di un server UDP con Python per verifica numeri primi
+    * 31 marzo 2020
