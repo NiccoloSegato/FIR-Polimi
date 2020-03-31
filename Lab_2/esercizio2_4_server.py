@@ -6,9 +6,18 @@ serverSocket = socket(AF_INET, SOCK_DGRAM)
 serverSocket.bind(('', serverPort))
 print('Server started at 127.0.0.1:', serverPort)
 
+
 def check(number):
     number = int(number)
-    return 1
+    counter = 0
+    for i in range(1, number):
+        if number % i == 0:
+            counter = counter + 1
+    if counter > 2:
+        return 'Numero non primo'
+    else:
+        return 'Numero primo'
+
 
 while True:
     message, clientAddress = serverSocket.recvfrom(2048)
