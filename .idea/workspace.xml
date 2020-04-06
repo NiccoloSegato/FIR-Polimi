@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8440aae5-813a-481e-a24b-a419f6e0a1b7" name="Default" comment="Updated files esercizio2_4_[].py" />
+    <list default="true" id="8440aae5-813a-481e-a24b-a419f6e0a1b7" name="Default" comment="Updated files esercizio2_4_[].py">
+      <change afterPath="$PROJECT_DIR$/Lab_3/tcp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab_3/tcp_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zt2fbilGV5ZRWQMBHfKjhkDN8p" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -114,6 +120,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.esercizio2_4_client" />
+      <item itemvalue="Python.esercizio2_4_server" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.esercizio2_4_client" />
@@ -178,5 +188,9 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="440" y="252" key="Vcs.Push.Dialog.v2/0.23.1680.979@0.23.1680.979" timestamp="1585645177502" />
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1586166675446">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="505" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1680.979@0.23.1680.979" timestamp="1586166675446" />
   </component>
 </project>
